@@ -1,0 +1,9 @@
+kind: role
+version: v5
+metadata:
+  name: sso-users
+spec:
+  allow:
+    logins: ['azureuser', 'root']
+    node_labels:
+      '*': '*'
