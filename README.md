@@ -3,9 +3,9 @@
 a quick demo of a dockerized teleport server on fly.io + github SSO.
 
 currently configured for DNS using "port.alexeldeib.xyz" hardcoded in a few places.
-- https://github.com/alexeldeib/reimagined-barnacle/blob/main/Dockerfile#L27
-- https://github.com/alexeldeib/reimagined-barnacle/blob/main/cap.yaml#L7
-- https://github.com/alexeldeib/reimagined-barnacle/blob/main/github.yaml#L14
+- https://github.com/alexeldeib/reimagined-barnacle/blob/a41e824feeeff57812d3fa2c9cc8d4b0115b5e3b/Dockerfile#L27
+- https://github.com/alexeldeib/reimagined-barnacle/blob/a41e824feeeff57812d3fa2c9cc8d4b0115b5e3b/cap.yaml#L7
+- https://github.com/alexeldeib/reimagined-barnacle/blob/a41e824feeeff57812d3fa2c9cc8d4b0115b5e3b/github.yaml#L14
 
 also hardcoded for Github SSO to an org I manage:
 - https://github.com/alexeldeib/reimagined-barnacle/blob/a1ee176afa64805d5afae40e11b8ecebca9dab0f/github.yaml#L17-L18
