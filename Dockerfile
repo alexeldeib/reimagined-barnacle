@@ -3,10 +3,10 @@ FROM ubuntu:22.04 as build
 RUN apt update && apt install -y curl
 
 WORKDIR /work
-RUN curl -O https://get.gravitational.com/teleport-v10.3.2-linux-amd64-bin.tar.gz \
-    && curl -O https://get.gravitational.com/teleport-v10.3.2-linux-amd64-bin.tar.gz.sha256 \
-    && sha256sum --check teleport-v10.3.2-linux-amd64-bin.tar.gz.sha256 \
-    && tar -xzf teleport-v10.3.2-linux-amd64-bin.tar.gz \
+RUN curl -O https://get.gravitational.com/teleport-v10.3.9-linux-amd64-bin.tar.gz \
+    && curl -O https://get.gravitational.com/teleport-v10.3.9-linux-amd64-bin.tar.gz.sha256 \
+    && sha256sum --check teleport-v10.3.9-linux-amd64-bin.tar.gz.sha256 \
+    && tar -xzf teleport-v10.3.9-linux-amd64-bin.tar.gz \
     && BINDIR=/usr/local/bin \
     && VARDIR=/var/lib/teleport \
     && mkdir -p $VARDIR $BINDIR
